@@ -2,6 +2,10 @@ import React from 'react';
 
 import QuestionList from './components/QuestionList'
 import QuestionDetail from './components/QuestionDetail'
+<<<<<<< HEAD
+=======
+import { connect } from 'react-redux';
+>>>>>>> a56a6c9a9726fdf2c60b1642c3c5bfe46dcbfeeb
 import NotificationsViewer from './components/NotificationsViewer'
 
 import { connect } from 'react-redux';
@@ -19,9 +23,13 @@ const AppDisplay =  ()=>(
             </Link>
         </div>
         <div>
+<<<<<<< HEAD
 
             <NotificationsViewer />
 
+=======
+            <NotificationsViewer />
+>>>>>>> a56a6c9a9726fdf2c60b1642c3c5bfe46dcbfeeb
         </div>
 
         {/*Specify a route for the main page which renders when the path is empty*/}

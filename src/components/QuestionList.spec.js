@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /**
  * In this file we explore testing a React-Redux component by wrapping it in a MemoryRouter and checking the results
  */
@@ -43,3 +44,29 @@ describe("The question list",()=>{
 
    });
 });
+=======
+describe("The question list",()=>{
+    beforeEach(()=>{
+       console.log("Before each!");
+    });
+
+    beforeAll(()=>{
+        console.log("Before all!");
+    });
+
+    afterEach(()=>{
+        console.log("After each!");
+    });
+
+    afterAll(()=>{
+        console.log("After all!");
+    });
+    it("should display a list of items",()=>{
+        expect(40 + 2).toEqual(42);
+    });
+
+    it.skip("should be the meaning of life",()=>{
+        expect(40 + 2).toEqual(43);
+    })
+});
+>>>>>>> a56a6c9a9726fdf2c60b1642c3c5bfe46dcbfeeb
