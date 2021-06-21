@@ -18,7 +18,7 @@ import createHistory from 'history/createMemoryHistory';
 /**
  * Try and find a specific port as provided by an external cloud host, or go with a default value
  */
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3011;
 const app = express();
 
 /**
